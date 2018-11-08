@@ -40,13 +40,17 @@ Total params: 438,369
 Trainable params: 438,369
 Non-trainable params: 0
 <br/>
-explaination-:<br/>
+# explaination?-:<br/>
+
+
       Image ->  150*150*3 { height -> 150, width->150, depth or RGB -> 3}<br/>
       than i apply filter 32 3*3 =>  (148,148,32)<br/>
       where 32 is stack of filter basically we found 148 unique position while doing convolution<br/>
       =>(I-F)/(S+1)<br/>
       =>total number of observation = (3*3*3)*32 -> 864<br/>
-what is convolution <br/>
+
+
+# what is convolution? <br/>
       it is basically moving the filter  over the image with some stride <br/>
       we do dot product of w and x value which lie in the filter and sum it up which give us a single <br/>
       value this process is called convolution<br/>
